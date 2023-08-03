@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T18:02:42 IST" name="Default suite" finished-at="2023-07-26T18:09:36 IST" duration-ms="413735">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T18:02:42 IST" name="Default test" finished-at="2023-07-26T18:09:36 IST" duration-ms="413735">
+      <class name="liveTicketTestCases.CTMSLiveTicketCheck">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:02:43 IST" name="startReport" finished-at="2023-07-26T18:02:43 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:02:43 IST" name="setup" finished-at="2023-07-26T18:02:47 IST" duration-ms="4142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:02:47 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:03:25 IST" duration-ms="37940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://prd1.octalsoft.com/apex/f?p=999180:101:10890906497603:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LTR (Lambda)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:03:25 IST" name="getResult" finished-at="2023-07-26T18:03:33 IST" duration-ms="8067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:03:33 IST" name="setup" finished-at="2023-07-26T18:03:36 IST" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:03:36 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:03:52 IST" duration-ms="15683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ins1.octalsoft.com/apex/f?p=999200:101:11072630174271:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Veeda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:03:52 IST" name="getResult" finished-at="2023-07-26T18:04:00 IST" duration-ms="7861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:04:00 IST" name="setup" finished-at="2023-07-26T18:04:03 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:04:03 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:04:37 IST" duration-ms="34538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://prd1.octalsoft.com/apex/f?p=999157:101:4964850912361:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stiris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:04:37 IST" name="getResult" finished-at="2023-07-26T18:04:37 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:04:37 IST" name="setup" finished-at="2023-07-26T18:04:40 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:04:40 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:05:05 IST" duration-ms="25322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://crl.octalsoft.com:8181/ords/f?p=85135:101:15212467260315:::]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cliantha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:05:05 IST" name="getResult" finished-at="2023-07-26T18:05:29 IST" duration-ms="23735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:05:29 IST" name="setup" finished-at="2023-07-26T18:05:32 IST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:05:32 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:06:08 IST" duration-ms="36191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://prd1.octalsoft.com/apex/f?p=999572:101:7405555270598:::]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZTI-US (Zydus US)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:06:08 IST" name="getResult" finished-at="2023-07-26T18:06:17 IST" duration-ms="9207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:06:17 IST" name="setup" finished-at="2023-07-26T18:06:20 IST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:06:20 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:07:16 IST" duration-ms="56924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://prd1.octalsoft.com/apex/f?p=22572:101:16356483477202:::]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zydus (India)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:07:16 IST" name="getResult" finished-at="2023-07-26T18:07:25 IST" duration-ms="8886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:07:25 IST" name="setup" finished-at="2023-07-26T18:07:28 IST" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:07:28 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:07:51 IST" duration-ms="23447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://prd3.octalsoft.com/apex/f?p=999902:101:1998494404278:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alkem]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:07:51 IST" name="getResult" finished-at="2023-07-26T18:07:52 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:07:52 IST" name="setup" finished-at="2023-07-26T18:07:54 IST" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:07:54 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:08:11 IST" duration-ms="16625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ins1.octalsoft.com/apex/f?p=999767:101:5605394920825:&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cadila]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:11 IST" name="getResult" finished-at="2023-07-26T18:08:11 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:11 IST" name="setup" finished-at="2023-07-26T18:08:14 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:14 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:08:31 IST" duration-ms="17182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ins1.octalsoft.com/apex/f?p=999703:101:10578700105256:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CDSA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:31 IST" name="getResult" finished-at="2023-07-26T18:08:31 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:31 IST" name="setup" finished-at="2023-07-26T18:08:34 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:34 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:08:49 IST" duration-ms="15607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ins1.octalsoft.com/apex/f?p=999700:101:4445398185918:::::]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CROM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:49 IST" name="getResult" finished-at="2023-07-26T18:08:50 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:50 IST" name="setup" finished-at="2023-07-26T18:08:52 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:08:52 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:09:08 IST" duration-ms="15795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ins4.octalsoft.com/apex/f?p=999207:101:10121080258679:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Glenmark]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:09:08 IST" name="getResult" finished-at="2023-07-26T18:09:09 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:09:09 IST" name="setup" finished-at="2023-07-26T18:09:11 IST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:09:11 IST" name="findCTMSLiveTickets" data-provider="credentials" finished-at="2023-07-26T18:09:28 IST" duration-ms="16786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ins5.octalsoft.com/apex/f?p=999300:101:2752815344676:::::&tz=5:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CROISSACE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun.janardhanan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aj@live123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCTMSLiveTickets -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:09:28 IST" name="getResult" finished-at="2023-07-26T18:09:36 IST" duration-ms="7757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCTMSLiveTickets status=SUCCESS method=CTMSLiveTicketCheck.findCTMSLiveTickets(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:liveTicketTestCases.CTMSLiveTicketCheck@2dde1bff]" started-at="2023-07-26T18:09:36 IST" name="endReport" finished-at="2023-07-26T18:09:36 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- liveTicketTestCases.CTMSLiveTicketCheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

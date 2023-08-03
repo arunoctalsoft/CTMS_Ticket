@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="liveTicketUtilities.Listener"></listener>
+	</listeners>
+	<test thread-count="2" name="Test-All">
+		<!--parameter name="browser" value="Edge"></parameter-->
+		<classes>
+
+			<class name="liveTicketTestCases.AlkemLiveTicketPageTest" />
+
+
+		</classes>
+		
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
